@@ -1,4 +1,4 @@
-module Bittrex
+module Hitbtc
   class Order
     include Helpers
 
@@ -60,7 +60,7 @@ module Bittrex
     end
 
     def self.client
-      @client ||= Bittrex.client
+      @client ||= Hitbtc.client
     end
   end
 end

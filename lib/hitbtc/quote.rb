@@ -1,4 +1,4 @@
-module Bittrex
+module Hitbtc
   class Quote
     attr_reader :market, :bid, :ask, :last, :raw
 
@@ -20,7 +20,7 @@ module Bittrex
     private
 
     def self.client
-      @client ||= Bittrex.client
+      @client ||= Hitbtc.client
     end
   end
 end

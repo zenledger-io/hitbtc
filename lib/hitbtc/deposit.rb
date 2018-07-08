@@ -1,4 +1,4 @@
-module Bittrex
+module Hitbtc
   class Deposit
     include Helpers
 
@@ -23,7 +23,7 @@ module Bittrex
     private
 
     def self.client
-      @client ||= Bittrex.client
+      @client ||= Hitbtc.client
     end
   end
 end

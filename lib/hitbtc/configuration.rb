@@ -1,14 +1,14 @@
 require 'singleton'
 
-module Bittrex
+module Hitbtc
   class Configuration
     include Singleton
 
     attr_accessor :key, :secret
 
     @@defaults = {
-      key: ENV['bittrex_api_key'],
-      secret: ENV['bittrex_api_secret']
+      key: ENV['hitbtc_api_key'],
+      secret: ENV['hitbtc_api_secret']
     }
 
     def self.defaults

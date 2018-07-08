@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bittrex/version'
+require 'hitbtc/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "bittrex"
-  spec.version       = Bittrex::VERSION
-  spec.authors       = ["Matthew Werner"]
-  spec.email         = ["m@mjw.io"]
-  spec.summary       = %q{API Client for the Bittrex API}
-  spec.description   = %q{API Client for the Bittrex API}
-  spec.homepage      = "https://github.com/mwerner/bittrex"
+  spec.name          = "hitbtc"
+  spec.version       = Hitbtc::VERSION
+  spec.authors       = ["Rabin Shrestha"]
+  spec.email         = ["shrestha.rabin505@gmail.com"]
+  spec.summary       = %q{API Client for the HitBTC API}
+  spec.description   = %q{API Client for the HitBTC API}
+  spec.homepage      = "https://github.com/rabinshrestha/hitbtc"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

@@ -1,6 +1,6 @@
 require 'time'
 
-module Bittrex
+module Hitbtc
   class Market
     include Helpers
 
@@ -25,7 +25,7 @@ module Bittrex
     private
 
     def self.client
-      @client ||= Bittrex.client
+      @client ||= Hitbtc.client
     end
   end
 end

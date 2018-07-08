@@ -1,4 +1,4 @@
-module Bittrex
+module Hitbtc
   class Withdrawal
     include Helpers
 
@@ -28,7 +28,7 @@ module Bittrex
     private
 
     def self.client
-      @client ||= Bittrex.client
+      @client ||= Hitbtc.client
     end
   end
 end
